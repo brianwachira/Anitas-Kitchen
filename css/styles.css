@@ -1,0 +1,8 @@
+.landing{
+  position: relative;
+}
+#over-image{
+  position: absolute;
+  top: 130px;
+  right: 520px;
+}
