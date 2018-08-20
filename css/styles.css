@@ -4,5 +4,13 @@
 #over-image{
   position: absolute;
   top: 130px;
-  right: 520px;
+  right: 550px;
+}
+#landing-text{
+  position: absolute;
+  top: 451px;
+  left: 455px;
+  font-family: 'Slabo 27px', serif;
+  color:#FFFFFF;
+  word-spacing: 5px;
 }
