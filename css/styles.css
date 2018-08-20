@@ -1,3 +1,6 @@
+body{
+  background-color: #F15A29;
+}
 .landing{
   position: relative;
 }
@@ -13,4 +16,47 @@
   font-family: 'Slabo 27px', serif;
   color:#FFFFFF;
   word-spacing: 5px;
+}
+.card{
+  width: 300px;
+  height: 105px;
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Slabo 27px', serif;
+}
+#party-time{
+  padding-top: 90px;
+}
+.breakfast{
+  position: relative;
+  text-align: center;
+}
+#breakfast-text{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  color: #FFFFFF;
+  font-family: 'Courgette', cursive;
+}
+.lunch{
+  position: relative;
+  text-align: center;
+}
+#lunch-text{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  color: #FFFFFF;
+  font-family: 'Courgette', cursive;
+}
+.dinner{
+  position: relative;
+  text-align: center;
+}
+#dinner-text{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  color: #FFFFFF;
+  font-family: 'Courgette', cursive;
 }
