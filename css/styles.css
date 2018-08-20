@@ -84,3 +84,13 @@
   padding: 15px;
   width: 530px;
 }
+.foods{
+  margin-top: 100px;
+  position: relative;
+}
+#foods-navbar{
+  position: absolute;
+  top: 100px;
+  left: 124px;
+  right: 169px;
+}
