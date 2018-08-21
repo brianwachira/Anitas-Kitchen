@@ -15,15 +15,20 @@
   word-spacing: 5px;
 }
 #happy-hour{
+  width: 500px;
+  height: 114px;
+  background-color: inherit;
   font-family: 'Slabo 27px', serif;
+  c
 }
 #party-time{
-  padding-left: 156px;
-  padding-bottom: 42px;
-  padding-right: 165px;
-  padding-top: 0px;
-  background: #F15A29;
+  width: 200px;
+  height: 114px;
+  display: block;
+  background-color: #F15A29;
   font-family: 'Slabo 27px', serif;
+  color: white;
+  font-size: large;
 }
 .breakfast{
   position: relative;
@@ -35,6 +40,7 @@
   left: 40%;
   color: #FFFFFF;
   font-family: 'Courgette', cursive;
+  font-size: large;
 }
 .lunch{
   position: relative;
@@ -46,6 +52,7 @@
   left: 40%;
   color: #FFFFFF;
   font-family: 'Courgette', cursive;
+  font-size: large;
 }
 .dinner{
   position: relative;
@@ -57,6 +64,7 @@
   left: 40%;
   color: #FFFFFF;
   font-family: 'Courgette', cursive;
+  font-size: large;
 }
 .fastFood-images{
   margin-top: 120px;
@@ -137,4 +145,55 @@
 }
 .card{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.subscribe{
+  position: relative;
+}
+#subscribe-text{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
+#email-subscribe{
+  color: white;
+  background-color:inherit;
+  border-radius: 5px;
+  width: 392px;
+  height: 52px;
+
+}
+#button-subscribe{
+  color: white;
+  background-color: #F15A29;
+  width: 240px;
+  height: 52px;
+}
+.footer{
+  padding-top: 30px;
+  padding-left: 600px;
+  background-color: #F15A29;
+  width: 1400px;
+  height:231px;
+  color: white;
+}
+#footer-text{
+  padding-top:16px;
+  padding-bottom: 3px;
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
+.footer img{
+   width :40px;
+   height:40px;
+   padding-right: 3px;
+   margin-right: 6px;
+}
+#footer-lastLine{
+  font-size: smaller;
+  margin top: 100px;
+}
+#footer-title{
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
+  font-size: xx-large;
 }
