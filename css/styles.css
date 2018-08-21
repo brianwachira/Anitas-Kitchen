@@ -90,7 +90,19 @@
 }
 #foods-navbar{
   position: absolute;
+  color: #F15A29;
   top: 100px;
   left: 124px;
   right: 169px;
+}
+#left-arrow{
+  padding-right: 4px;
+  font-size: xx-large
+}
+#right-arrow{
+  padding-left: 4px;
+  font-size: xx-large;
+}
+.nav-item{
+  padding-right: 160px;
 }

@@ -77,27 +77,36 @@
          <div class="foods">
            <img src="images/backgrounds/foodsBg.jpg" alt="food">
            <div id="foods-navbar">
-             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-               <div class="navbar-nav">
-                 <a class="nav-item nav-link active" href="#"><span class="sr-only">(current)</span>Fast Food</a>
-                 <a class="nav-item nav-link" href="#">Drinks</a>
-                 <a class="nav-item nav-link" href="#">Chicken</a>
-                 <a class="nav-item nav-link" href="#">Rice</a>
+             <div class="card text-center">
+               <div class="card-header">
+                 <ul class="nav nav-tabs card-header-tabs">
+                   <li class="nav-item">
+                     <a class="nav-link fastFood" href="#">Fast Food</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link drinks" href="#">Drinks</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link chicken" href="#">Chicken</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link rice" href="#">Rice</a>
+                   </li>
+                 </ul>
                </div>
-               </div>
-             </nav>
-             <div class="card-body">
-               <div class="card">
+               <div class="card-body">
                  <div class="row">
-                    <img src="images/fastfood/chickenBurger.jpg" alt="chickenBurger"/>
-                     <img src="images/fastfood/beefBurger.jpg" alt="beefBurger"/>
-                     <img src="images/fastfood/chickenPizza.jpg" alt="chickenPizza"/>
+                 <div class="col-md-4">
+                   <span id="left-arrow">&lsaquo;</span><img src="images/fastfood/chickenBurger.jpg" alt="chickenBurger"/><figcaption>Chicken Burger</figcaption>
+                 </div>
+                 <div class="col-md-4">
+                   <img src="images/fastfood/beefBurger.jpg" alt="beefBurger"/><figcaption>Beef Burger</figcaption>
+                 </div>
+                 <div class="col-md-4">
+                   <img src="images/fastfood/chickenPizza.jpg" alt="chickenPizza"/><span id="right-arrow">&rsaquo;</span><figcaption>Chicken Pizza</figcaption>
                  </div>
                </div>
+             </div>
              </div>
            </div>
          </div>
