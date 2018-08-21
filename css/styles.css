@@ -16,6 +16,19 @@
   word-spacing: 5px;
   width: 500px;
 }
+.hamburger-menu{
+  position: absolute;
+  left: 66px;
+  top: 86px;
+  color: white;
+}
+.fa.fa-navicon {
+    font-size: 2.5rem;
+    background: #e3f2fd;
+}
+.navbar-toggler {
+    cursor: pointer;
+}
 #happy-hour{
   width: 300px;
   height: 108px;
