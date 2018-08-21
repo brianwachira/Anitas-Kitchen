@@ -106,3 +106,35 @@
 .nav-item{
   padding-right: 160px;
 }
+.customers{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 167px;
+  margin-right: 167px;
+}
+.customers-text{
+  text-align:center;
+  border-right: 2px solid #D3D3D3;
+  padding-right: 20px;
+  height:192px;
+}
+#customersLeftArrow{
+    padding-right: 1px;
+    font-size: xx-large;
+    color: #F15A29;
+}
+#customersRightArrow{
+  padding-left: 4px;
+  font-size: xx-large;
+  color: #F15A29;
+}
+.menu-text{
+  text-align:justify;
+}
+.card-title{
+  text-align: center;
+  color: #F15A29;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
