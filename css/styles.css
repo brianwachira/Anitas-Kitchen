@@ -40,6 +40,10 @@
   position: relative;
   text-align: center;
 }
+.breakfast:hover{
+  opacity: 0.7;
+  color: black;
+}
 #breakfast-text{
   position: absolute;
   top: 50%;
@@ -48,9 +52,16 @@
   font-family: 'Courgette', cursive;
   font-size: x-large;
 }
+#breakfast-text:hover{
+color: black;
+}
 .lunch{
   position: relative;
   text-align: center;
+}
+.lunch:hover{
+  opacity: 0.7;
+  color: black;
 }
 #lunch-text{
   position: absolute;
@@ -60,10 +71,16 @@
   font-family: 'Courgette', cursive;
   font-size: x-large;
 }
+#lunch-text:hover{
+color: black;
+}
 .dinner{
   position: relative;
   text-align: center;
   float: right;
+}
+.dinner:hover{
+  opacity: 0.7;
 }
 #dinner-text{
   position: absolute;
@@ -72,6 +89,9 @@
   color: #FFFFFF;
   font-family: 'Courgette', cursive;
   font-size: x-large;
+}
+#dinner-text:hover{
+color: black;
 }
 .fastFood-images{
   margin-top: 120px;
@@ -188,13 +208,22 @@
   border-radius: 5px;
   width: 392px;
   height: 52px;
-
+  border-color:  #F15A29;
+}
+#email-subscribe:hover{
+  background-color:  #535758;
+  border-color:  #F15A29;
+  color: white;
 }
 #button-subscribe{
   color: white;
   background-color: #F15A29;
   width: 240px;
   height: 52px;
+}
+#button-subscribe:hover{
+  background-color: inherit;
+  border-color: #F15A29;
 }
 .footer{
   padding-top: 30px;
