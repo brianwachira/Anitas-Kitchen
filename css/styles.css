@@ -8,27 +8,33 @@
 }
 #landing-text{
   position: absolute;
+  text-align: center;
   top: 451px;
-  left: 455px;
+  left: 410px;
   font-family: 'Slabo 27px', serif;
   color:#FFFFFF;
   word-spacing: 5px;
+  width: 500px;
 }
 #happy-hour{
-  width: 500px;
-  height: 114px;
+  width: 300px;
+  height: 108px;
   background-color: inherit;
   font-family: 'Slabo 27px', serif;
-  c
+  font-size: x-large;
+  padding-left: 110px;
+  padding-top: 5px;
+
 }
 #party-time{
-  width: 200px;
-  height: 114px;
-  display: block;
+  width: 360px;
+  height: 102px;
   background-color: #F15A29;
   font-family: 'Slabo 27px', serif;
   color: white;
-  font-size: large;
+  font-size: x-large;
+  padding-left: 130px;
+  padding-top: 5px;
 }
 .breakfast{
   position: relative;
@@ -40,7 +46,7 @@
   left: 40%;
   color: #FFFFFF;
   font-family: 'Courgette', cursive;
-  font-size: large;
+  font-size: x-large;
 }
 .lunch{
   position: relative;
@@ -52,11 +58,12 @@
   left: 40%;
   color: #FFFFFF;
   font-family: 'Courgette', cursive;
-  font-size: large;
+  font-size: x-large;
 }
 .dinner{
   position: relative;
   text-align: center;
+  float: right;
 }
 #dinner-text{
   position: absolute;
@@ -64,7 +71,7 @@
   left: 40%;
   color: #FFFFFF;
   font-family: 'Courgette', cursive;
-  font-size: large;
+  font-size: x-large;
 }
 .fastFood-images{
   margin-top: 120px;
@@ -78,11 +85,13 @@
   margin-top: 150px;
   margin-left: 82px;
   width: 400px;
+  font-family: 'Domine', serif;
 }
 .drinks-text{
   margin-top: 142px;
   margin-left: 190px;
   width: 400px;
+  font-family: 'Domine', serif;
 }
 .drinks-images{
   margin-top: 100px;
@@ -122,6 +131,7 @@
 }
 .customers-text{
   text-align:center;
+  font-family: 'Arvo', serif;
   border-right: 2px solid #D3D3D3;
   padding-right: 20px;
   height:192px;
@@ -138,6 +148,7 @@
 }
 .menu-text{
   text-align:justify;
+  font-family: 'Sawarabi Gothic', sans-serif;
 }
 .card-title{
   text-align: center;
@@ -150,6 +161,7 @@
   position: relative;
 }
 #subscribe-text{
+  font-family: 'Arvo', serif;
   color: white;
   position: absolute;
   top: 50%;
@@ -196,4 +208,13 @@
   text-align: center;
   font-family: 'Slabo 27px', serif;
   font-size: xx-large;
+}
+.col-md-3{
+  margin: 0;
+  padding: 0;
+}
+.container-fluid{
+  width: 100%
+  padding-left:0px;
+  padding-right: 0px;
 }
