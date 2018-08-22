@@ -16,19 +16,6 @@
   word-spacing: 5px;
   width: 500px;
 }
-.hamburger-menu{
-  position: absolute;
-  left: 66px;
-  top: 86px;
-  color: white;
-}
-.fa.fa-navicon {
-    font-size: 2.5rem;
-    background: #e3f2fd;
-}
-.navbar-toggler {
-    cursor: pointer;
-}
 #happy-hour{
   width: 300px;
   height: 108px;
@@ -151,14 +138,17 @@ color: black;
 }
 #foods-navbar{
   position: absolute;
-  color: #F15A29;
-  top: 100px;
+  top: 120px;
   left: 124px;
   right: 169px;
+  color: #F15A29;
 }
 #nav-text{
   color: black;
   font-size: large;
+}
+#nav-text:hover{
+  color: #F15A29;
 }
 #left-arrow{
   padding-right: 4px;
