@@ -2,9 +2,7 @@
 #### 
 #### By **Brian Wachira**
 ## Description
-This is an online information system for Anita's Kitchen. Most of the front end elements are visible. The reference is as seen below<br/>
-<a href="https://github.com/brianwachira/Anitas-Kitchen/blob/master/images/core.jpg" alt="anita's kitcheb reference" target="#">
-<img src="https://github.com/brianwachira/Anitas-Kitchen/blob/master/images/core.jpg" alt"anita's kitchen reference"/></a>
+This is an online information system for Anita's Kitchen. Most of the front end elements are visible. The reference is as seen below<br/><a href="#" target="_blank"><img src="https://github.com/brianwachira/Anitas-Kitchen/blob/master/images/core.jpg" alt="anita's kitchen reference" style="height: auto !important;width: auto !important;" ></a>
 ## Setup/Installation Requirements
 Clone on terminal using **git clone ---url---** or download zip and unzip it.
 open in terminal by typing **Anitas-Kitchen** or double click it
