@@ -1,14 +1,14 @@
-# Anitas-Kitchen
+# Heavens-Kitchen
 #### 
 #### By **Brian Wachira**
 ## Description
-This is an online information system for Anita's Kitchen. You can check out the meals and services offered and even subsribe the the anita's kitchen mailer. It basically covers what I have learnt in web development as of 23/8/2018
+This is an online information system for Heaven's Kitchen. You can check out the meals and services offered and even subsribe the the Heaven's kitchen mailer. It basically covers what I have learnt in web development as of 23/8/2018
 ## Setup/Installation Requirements
 Clone on terminal using **git clone ---url---** or download zip and unzip it.
 open in terminal by typing **Anitas-Kitchen** or double click it
 <br/>Run it on any browser.
 ## Link to live site
-https://brianwachira.github.io/Anitas-Kitchen/
+https://brianwachira.github.io/Heavens-Kitchen/
 ## Technologies Used
 HTML<br/>
 CSS<br/>
@@ -23,5 +23,5 @@ If you have any issues,ideas or concerns contact me on<a href="https://mail.goog
 ### License
 This project is licensed under the terms of the **MIT** license.
 
->You can check out the full license [here](https://github.com/brianwachira/Anitas-Kitchen/blob/master/LICENSE)  
+>You can check out the full license [here](https://github.com/brianwachira/Heavens-Kitchen/blob/master/LICENSE)  
 
