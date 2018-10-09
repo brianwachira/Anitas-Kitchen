@@ -298,7 +298,10 @@ color: black;
           }
           .col-md-3 {
             float: none;
-            padding-left: 60px;
+            padding-left: 0px;
+          }
+          .col-md-3 img {
+            width: 480px;
           }
       }
         /* Custom, iPhone Retina */
