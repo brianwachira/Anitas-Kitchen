@@ -296,6 +296,11 @@ color: black;
             width: 50%;
             height:318px;
           }
+          #party-time {
+            width: 510px;
+            padding: 0px;
+            
+          }
           .col-md-3 {
             float: none;
             padding-left: 0px;
