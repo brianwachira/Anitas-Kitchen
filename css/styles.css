@@ -264,4 +264,48 @@ color: black;
   padding-left:0px;
   padding-right:0px;
 }
+        /*==========  Non-Mobile First Method  ==========*/
+
+        /* Large Devices, Wide Screens */
+        @media only screen and (max-width : 1200px) {
+
+        }
+
+        /* Medium Devices, Desktops */
+        @media only screen and (max-width : 992px) {
+
+        }
+
+        /* Small Devices, Tablets */
+        @media only screen and (max-width : 768px) {
+
+        }
+
+        /* Extra Small Devices, Phones */
+        @media only screen and (max-width : 480px) {
+          .landing img[src="images/backgrounds/landing.jpg"] {
+            max-width: 480px;
+            max-height:318px;
+        }
+          .landing img[src="images/logoBig.png"]  {
+            max-width: 142px;
+            max-height: 143px;
+          }
+          #over-image {
+            position: absolute;
+            width: 50%;
+            height:318px;
+          }
+          .col-md-3 {
+            float: none;
+            padding-left: 60px;
+          }
+      }
+        /* Custom, iPhone Retina */
+        @media only screen and (max-width : 320px) {
+          .landing img[src="images/backgrounds/landing.jpg"] {
+            max-width: 320px;
+            max-height:318px;
+        }
+        }
 
