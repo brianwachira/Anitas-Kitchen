@@ -16,24 +16,8 @@
   word-spacing: 5px;
   width: 500px;
 }
-#happy-hour{
-  width: 300px;
-  height: 108px;
-  background-color: inherit;
-  font-family: 'Slabo 27px', serif;
-  font-size: x-large;
-  padding-left: 110px;
-  padding-top: 5px;
-}
-#party-time{
-  width: 360px;
-  height: 102px;
-  background-color: #F15A29;
-  font-family: 'Slabo 27px', serif;
-  color: white;
-  font-size: x-large;
-  padding-left: 130px;
-  padding-top: 5px;
+.row img[src="images/partytime.png"]{
+   width:360px;
 }
 .breakfast{
   position: relative;
@@ -297,9 +281,9 @@ color: black;
             height:318px;
           }
           #party-time {
-            width: 510px;
+            max-width: 510px;
             padding: 0px;
-            
+
           }
           .col-md-3 {
             float: none;
@@ -316,4 +300,3 @@ color: black;
             max-height:318px;
         }
         }
-
