@@ -334,6 +334,19 @@ color: black;
           .card-show  {
             display: none;
           }
+          .customers{
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-left: 0px;
+            margin-right: 0px;
+          }
+          .customers-text  {
+            border-right: 0px;
+            padding-right: 10px;
+          }
+        .menu-text h4 {
+          padding-top: 50px;
+        }
       }
         /* Custom, iPhone Retina */
         @media only screen and (max-width : 320px) {
