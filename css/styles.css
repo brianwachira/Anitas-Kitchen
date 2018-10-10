@@ -289,6 +289,13 @@ color: black;
           .col-md-3 img {
             width: 480px;
           }
+          .fastFood-images {
+            padding: 0;
+            max-width: 480px;
+            margin-top: 0px;
+            margin-left: 0px;
+            float: left;
+          }
       }
         /* Custom, iPhone Retina */
         @media only screen and (max-width : 320px) {
