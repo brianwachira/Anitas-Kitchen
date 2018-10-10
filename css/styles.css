@@ -302,6 +302,12 @@ color: black;
             width: 330px;
             font-family: 'Domine', serif;
           }
+          .drinks-text{
+            margin-top: 50px;
+            margin-left: 0px;
+            width: 330px;
+            font-family: 'Domine', serif;
+          }
       }
         /* Custom, iPhone Retina */
         @media only screen and (max-width : 320px) {
