@@ -319,10 +319,6 @@ color: black;
           #drink2 {
             display: none;
           }
-          .foods img[src="images/backgrounds/foodsBg.jpg"]{
-            max-width: 480px;
-            height: 375px;
-          }
           #foods-navbar{
             position: absolute;
             top: 80px;
@@ -346,6 +342,48 @@ color: black;
           }
         .menu-text h4 {
           padding-top: 50px;
+        }
+        .subscribe{
+          position: relative;
+        }
+        .subscribe img[src="images/backgrounds/subscribe.jpg"] {
+          max-width: 480px;
+          height: 300px;
+        }
+        #subscribe-text{
+          font-family: 'Arvo', serif;
+          color: white;
+          position: absolute;
+          top: 20%;
+          left: 0%;
+        }
+        #email-subscribe{
+          color: white;
+          background-color:inherit;
+          border-radius: 5px;
+          width: 240px;
+          height: 30px;
+          border-color:  #F15A29;
+        }
+        #email-subscribe:hover{
+          background-color:  #535758;
+          border-color:  #F15A29;
+          color: white;
+        }
+        #button-subscribe{
+          color: white;
+          background-color: #F15A29;
+          width: 100px;
+          height: 30px;
+        }
+        #button-subscribe:hover{
+          background-color: inherit;
+          border-color: #F15A29;
+        }
+        .foods img[src="images/backgrounds/foodsBg.jpg"]{
+          max-width: 480px;
+          height: 229px;
+
         }
       }
         /* Custom, iPhone Retina */
