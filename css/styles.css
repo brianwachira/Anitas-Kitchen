@@ -296,6 +296,12 @@ color: black;
             margin-left: 0px;
             float: left;
           }
+          .fastFood-text  {
+            margin-top: 20px;
+            margin-left: 0px;
+            width: 330px;
+            font-family: 'Domine', serif;
+          }
       }
         /* Custom, iPhone Retina */
         @media only screen and (max-width : 320px) {
