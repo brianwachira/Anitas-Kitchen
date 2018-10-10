@@ -319,6 +319,21 @@ color: black;
           #drink2 {
             display: none;
           }
+          .foods img[src="images/backgrounds/foodsBg.jpg"]{
+            max-width: 480px;
+            height: 375px;
+          }
+          #foods-navbar{
+            position: absolute;
+            top: 80px;
+            left: 0px;
+            right: 0px;
+            color: #F15A29;
+            width: 400px;
+          }
+          .card-show  {
+            display: none;
+          }
       }
         /* Custom, iPhone Retina */
         @media only screen and (max-width : 320px) {
