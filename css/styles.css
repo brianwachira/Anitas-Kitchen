@@ -245,3 +245,9 @@ color: black;
   padding-left:0px;
   padding-right:0px;
 }
+.landing-img{
+  max-width: 100%;
+}
+.foods-bg{
+  max-width: 100%;
+}
