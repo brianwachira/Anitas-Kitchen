@@ -16,25 +16,6 @@
   word-spacing: 5px;
   width: 500px;
 }
-#happy-hour{
-  width: 300px;
-  height: 108px;
-  background-color: inherit;
-  font-family: 'Slabo 27px', serif;
-  font-size: x-large;
-  padding-left: 110px;
-  padding-top: 5px;
-}
-#party-time{
-  width: 360px;
-  height: 102px;
-  background-color: #F15A29;
-  font-family: 'Slabo 27px', serif;
-  color: white;
-  font-size: x-large;
-  padding-left: 130px;
-  padding-top: 5px;
-}
 .breakfast{
   position: relative;
   text-align: center;
@@ -264,4 +245,3 @@ color: black;
   padding-left:0px;
   padding-right:0px;
 }
-

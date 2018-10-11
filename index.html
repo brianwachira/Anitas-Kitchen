@@ -3,6 +3,7 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/media-queries.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
@@ -21,10 +22,10 @@
      <div class="container-fluid">
        <div class="row">
          <div class="col-md-3">
-           <span id="happy-hour">Happy Hour<br/><br/><br/></span>
-           <div class="row">
-             <span id="party-time"><br/>Party Time</span>
-           </div>
+           <div class="happyhour-partytime">
+             <img src="images/happyhour.png" alt="happyhour"/>
+             <img src="images/partytime.png" alt="partytime"/>
+          </div>
          </div>
          <div class="col-md-3">
            <div class="breakfast">
@@ -73,7 +74,7 @@
          <div class="col-md-6">
            <div class="drinks-images">
              <img src="images/drink1.jpg" alt="drink"/>
-             <img src="images/drink2.jpg" alt="drink2"/>
+             <img src="images/drink2.jpg" alt="drink2" id="drink2"/>
            </div>
          </div>
        </div>
@@ -98,16 +99,19 @@
                    </li>
                  </ul>
                </div>
-               <div class="card-body">
-                 <div class="row">
-                 <div class="col-md-4">
-                   <span id="left-arrow">&lsaquo;</span><img src="images/fastfood/chickenBurger.jpg" alt="chickenBurger"/><figcaption><strong>Chicken Burger</strong></figcaption>
-                 </div>
-                 <div class="col-md-4">
-                   <img src="images/fastfood/beefBurger.jpg" alt="beefBurger"/><figcaption><strong>Beef Burger</strong></figcaption>
-                 </div>
-                 <div class="col-md-4">
-                   <img src="images/fastfood/chickenPizza.jpg" alt="chickenPizza"/><span id="right-arrow">&rsaquo;</span><figcaption><strong>Chicken Pizza</strong></figcaption>
+               <div class="card-show">
+                 <div class="card-body">
+                   <div class="row">
+                   <div class="col-md-4">
+                     <span id="left-arrow">&lsaquo;</span>
+                     <img src="images/fastfood/chickenBurger.jpg" alt="chickenBurger"/><figcaption><strong>Chicken Burger</strong></figcaption>
+                   </div>
+                   <div class="col-md-4">
+                     <img src="images/fastfood/beefBurger.jpg" alt="beefBurger"/><figcaption><strong>Beef Burger</strong></figcaption>
+                   </div>
+                   <div class="col-md-4">
+                     <img src="images/fastfood/chickenPizza.jpg" alt="chickenPizza"/><span id="right-arrow">&rsaquo;</span><figcaption><strong>Chicken Pizza</strong></figcaption>
+                   </div>
                  </div>
                </div>
              </div>
@@ -121,13 +125,15 @@
              <div class="row">
                <div class="col-md-7">
                  <div class="customers-text">
-                     <h3 class="card-title">Our Happy Customers</h3>
-                     <h4>George Richard</h4>
-                     <p class="card-text">Great food! Menu is awesome, their foods are not only great
-                       but also in the right price. I'll highly recommend them:)</p>
-                       <span id="customersLeftArrow">&lsaquo;</span><img src="images/customers/p1.png" alt="customer1"/>
-                       <img src="images/customers/p2.png" alt="customer2"/>
-                       <img src="images/customers/p3.png" alt="customers3"/><span id="customersRightArrow">&rsaquo;</span>
+                   <h3 class="card-title">Our Happy Customers</h3>
+                   <h4>George Richard</h4>
+                   <p class="card-text">Great food! Menu is awesome, their foods are not only great
+                     but also in the right price. I'll highly recommend them:)</p>
+                   <span id="customersLeftArrow">&lsaquo;</span>
+                   <img src="images/customers/p1.png" alt="customer1"/>
+                   <img src="images/customers/p2.png" alt="customer2"/>
+                   <img src="images/customers/p3.png" alt="customers3"/>
+                   <span id="customersRightArrow">&rsaquo;</span>
                  </div>
                </div>
                <div class="col-md-5">
