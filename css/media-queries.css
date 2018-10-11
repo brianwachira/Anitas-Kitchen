@@ -19,18 +19,31 @@
 
       /* Extra Small Devices, Phones */
       @media only screen and (max-width : 480px) {
+        .landing{
+          position: relative;
+        }
         .landing img[src="images/backgrounds/landing.jpg"] {
           max-width: 480px;
           max-height:318px;
-      }
+        }
+        #over-image{
+          position: absolute;
+          width: 10%;
+          height:5px;
+        }
         .landing img[src="images/logoBig.png"]  {
           max-width: 142px;
           max-height: 143px;
         }
-        #over-image {
+        #landing-text{
           position: absolute;
-          width: 50%;
-          height:318px;
+          text-align: center;
+          top: 100px;
+          left: 20px;
+          font-family: 'Slabo 27px', serif;
+          color:#FFFFFF;
+          word-spacing: 2px;
+          width: 400px;
         }
         #party-time {
           max-width: 510px;
