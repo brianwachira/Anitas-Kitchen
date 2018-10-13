@@ -35,7 +35,7 @@
           position: absolute;
           text-align: center;
           top: 60px;
-          left: 0px;
+          left:24px;
           font-family: 'Slabo 27px', serif;
           color:#FFFFFF;
           word-spacing: 2px;
@@ -118,7 +118,7 @@
         color: white;
         position: absolute;
         top: 20%;
-        left: 0%;
+        left:10%;
       }
       #email-subscribe{
         color: white;
