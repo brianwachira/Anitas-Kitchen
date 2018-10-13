@@ -22,9 +22,6 @@
         .landing{
           position: relative;
         }
-        .landing img[src="images/backgrounds/landing.jpg"] {
-          max-width: 100%;
-        }
         #over-image{
           position: absolute;
           width: 10%;
