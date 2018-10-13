@@ -58,10 +58,13 @@
         }
         .fastFood-images {
           padding: 0;
-          max-width: 480px;
           margin-top: 0px;
           margin-left: 0px;
           float: left;
+          width: 430px;
+        }
+        .fastFood-images img {
+          max-width: 426px;
         }
         .fastFood-text  {
           margin-top: 20px;
