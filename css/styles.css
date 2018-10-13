@@ -93,7 +93,7 @@ color: black;
 .fastFood-text{
   margin-top: 150px;
   margin-left: 82px;
-  width: 400px;
+  text-align: justify;
   font-family: 'Domine', serif;
 }
 .drinks-text{
