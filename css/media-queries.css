@@ -51,11 +51,10 @@
           padding-left: 0px;
         }
         .fastFood-images {
-          padding: 0;
+          padding: 1px;
           margin-top: 0px;
           margin-left: 0px;
           float: left;
-          width: 430px;
         }
         .fastFood-text  {
           margin-top: 20px;
