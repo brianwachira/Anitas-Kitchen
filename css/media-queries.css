@@ -59,13 +59,13 @@
         .fastFood-text  {
           margin-top: 20px;
           margin-left: 0px;
-          width: 330px;
+          width: 100%;
           font-family: 'Domine', serif;
         }
         .drinks-text{
           margin-top: 50px;
           margin-left: 0px;
-          width: 330px;
+          width: 100%;
           font-family: 'Domine', serif;
         }
         .drinks-images  {
